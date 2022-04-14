@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "YourFirstHourwithUMG",
+			"Path": "C:\\Users\\santiago.firpo\\Documents\\Unreal Projects\\YourFirstHourwithUMG\\Source\\YourFirstHourwithUMG.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "YourFirstHourwithUMGEditor",
+			"Path": "C:\\Users\\santiago.firpo\\Documents\\Unreal Projects\\YourFirstHourwithUMG\\Source\\YourFirstHourwithUMGEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\Definitions.YourFirstHourwithUMG.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source\YourFirstHourwithUMG\Public\Inventory/WeaponInventory.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Inc\YourFirstHourwithUMG\WeaponInventory.generated.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source\YourFirstHourwithUMG\Public\Services/InputSubsystem.h
+c:\users\santiago.firpo\documents\unreal projects\yourfirsthourwithumg\source\yourfirsthourwithumg\public\services\InventorySubsystem.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source\YourFirstHourwithUMG\Public\Utilities/UNonPersistent.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Inc\YourFirstHourwithUMG\UNonPersistent.generated.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Inc\YourFirstHourwithUMG\InventorySubsystem.generated.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Inc\YourFirstHourwithUMG\InputSubsystem.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerInput.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\GestureRecognizer.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\KeyState.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerInput.generated.h

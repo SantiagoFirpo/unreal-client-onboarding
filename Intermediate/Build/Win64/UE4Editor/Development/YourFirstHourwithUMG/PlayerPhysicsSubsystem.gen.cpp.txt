@@ -1,0 +1,7 @@
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\Definitions.YourFirstHourwithUMG.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source\YourFirstHourwithUMG/Public/Services/PlayerPhysicsSubsystem.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source\YourFirstHourwithUMG\Public\Config/Settings/PlayerPhysicsSettings.h
+c:\users\santiago.firpo\documents\unreal projects\yourfirsthourwithumg\intermediate\build\win64\ue4editor\inc\yourfirsthourwithumg\PlayerPhysicsSettings.generated.h
+c:\users\santiago.firpo\documents\unreal projects\yourfirsthourwithumg\intermediate\build\win64\ue4editor\inc\yourfirsthourwithumg\PlayerPhysicsSubsystem.generated.h

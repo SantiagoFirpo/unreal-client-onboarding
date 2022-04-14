@@ -1,0 +1,6 @@
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\Definitions.YourFirstHourwithUMG.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source\YourFirstHourwithUMG\Public\Services/PlayerPhysicsSubsystem.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source\YourFirstHourwithUMG\Public\Config/Settings/PlayerPhysicsSettings.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Inc\YourFirstHourwithUMG\PlayerPhysicsSettings.generated.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Inc\YourFirstHourwithUMG\PlayerPhysicsSubsystem.generated.h
+C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source\YourFirstHourwithUMG\Public\Utilities/SubsystemUtilities.h

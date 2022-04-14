@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\santiago.firpo\\Documents\\Unreal Projects\\YourFirstHourwithUMG\\Source\\YourFirstHourwithUMG\\YourFirstHourwithUMG.Build.cs",
+		"C:\\Users\\santiago.firpo\\Documents\\Unreal Projects\\YourFirstHourwithUMG\\Source\\YourFirstHourwithUMG.Target.cs",
+		"C:\\Users\\santiago.firpo\\Documents\\Unreal Projects\\YourFirstHourwithUMG\\Source\\YourFirstHourwithUMGEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
