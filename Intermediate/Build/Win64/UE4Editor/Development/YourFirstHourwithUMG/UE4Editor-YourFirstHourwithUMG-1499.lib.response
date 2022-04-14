@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-YourFirstHourwithUMG-1499.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\YourFirstHourwithUMGEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\MyClass.cpp.obj"
+"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\PlayerDataSubsystem.cpp.obj"
+"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\YourFirstHourwithUMG.cpp.obj"
+"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\Default.rc2.res"
+/OUT:"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\UE4Editor-YourFirstHourwithUMG-1499.lib"
+/INCLUDE:IMPLEMENT_MODULE_YourFirstHourwithUMG
