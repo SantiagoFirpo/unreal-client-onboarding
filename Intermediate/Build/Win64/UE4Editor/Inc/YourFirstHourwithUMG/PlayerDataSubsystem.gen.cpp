@@ -14,19 +14,92 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePlayerDataSubsystem() {}
 // Cross Module References
+	YOURFIRSTHOURWITHUMG_API UFunction* Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature();
+	UPackage* Z_Construct_UPackage__Script_YourFirstHourwithUMG();
+	YOURFIRSTHOURWITHUMG_API UFunction* Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature();
 	YOURFIRSTHOURWITHUMG_API UClass* Z_Construct_UClass_UPlayerDataSubsystem_NoRegister();
 	YOURFIRSTHOURWITHUMG_API UClass* Z_Construct_UClass_UPlayerDataSubsystem();
 	ENGINE_API UClass* Z_Construct_UClass_UGameInstanceSubsystem();
-	UPackage* Z_Construct_UPackage__Script_YourFirstHourwithUMG();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(UPlayerDataSubsystem::execGetPlayerDataSubsystem)
+	struct Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics
 	{
-		P_GET_OBJECT(UObject,Z_Param_WorldContextObject);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		*(UPlayerDataSubsystem**)Z_Param__Result=UPlayerDataSubsystem::GetPlayerDataSubsystem(Z_Param_WorldContextObject);
-		P_NATIVE_END;
+		struct _Script_YourFirstHourwithUMG_eventHealthChangeEvent_Parms
+		{
+			float NewValue;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NewValue_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_NewValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::NewProp_NewValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::NewProp_NewValue = { "NewValue", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_YourFirstHourwithUMG_eventHealthChangeEvent_Parms, NewValue), METADATA_PARAMS(Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::NewProp_NewValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::NewProp_NewValue_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::NewProp_NewValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PlayerDataSubsystem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_YourFirstHourwithUMG, nullptr, "HealthChangeEvent__DelegateSignature", nullptr, nullptr, sizeof(_Script_YourFirstHourwithUMG_eventHealthChangeEvent_Parms), Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics
+	{
+		struct _Script_YourFirstHourwithUMG_eventAmmoChangeEvent_Parms
+		{
+			int32 NewValue;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NewValue_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_NewValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::NewProp_NewValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::NewProp_NewValue = { "NewValue", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_YourFirstHourwithUMG_eventAmmoChangeEvent_Parms, NewValue), METADATA_PARAMS(Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::NewProp_NewValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::NewProp_NewValue_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::NewProp_NewValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PlayerDataSubsystem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_YourFirstHourwithUMG, nullptr, "AmmoChangeEvent__DelegateSignature", nullptr, nullptr, sizeof(_Script_YourFirstHourwithUMG_eventAmmoChangeEvent_Parms), Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	DEFINE_FUNCTION(UPlayerDataSubsystem::execChangeHealth)
 	{
@@ -57,7 +130,6 @@ void EmptyLinkFunctionForGeneratedCodePlayerDataSubsystem() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ChangeAmmo", &UPlayerDataSubsystem::execChangeAmmo },
 			{ "ChangeHealth", &UPlayerDataSubsystem::execChangeHealth },
-			{ "GetPlayerDataSubsystem", &UPlayerDataSubsystem::execGetPlayerDataSubsystem },
 			{ "InitializeData", &UPlayerDataSubsystem::execInitializeData },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -142,44 +214,6 @@ void EmptyLinkFunctionForGeneratedCodePlayerDataSubsystem() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics
-	{
-		struct PlayerDataSubsystem_eventGetPlayerDataSubsystem_Parms
-		{
-			UObject* WorldContextObject;
-			UPlayerDataSubsystem* ReturnValue;
-		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WorldContextObject;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerDataSubsystem_eventGetPlayerDataSubsystem_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerDataSubsystem_eventGetPlayerDataSubsystem_Parms, ReturnValue), Z_Construct_UClass_UPlayerDataSubsystem_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::NewProp_WorldContextObject,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::NewProp_ReturnValue,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "// ReSharper disable once CppUEBlueprintCallableFunctionUnused\n" },
-		{ "ModuleRelativePath", "Public/PlayerDataSubsystem.h" },
-		{ "ToolTip", "ReSharper disable once CppUEBlueprintCallableFunctionUnused" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPlayerDataSubsystem, nullptr, "GetPlayerDataSubsystem", nullptr, nullptr, sizeof(PlayerDataSubsystem_eventGetPlayerDataSubsystem_Parms), Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	struct Z_Construct_UFunction_UPlayerDataSubsystem_InitializeData_Statics
 	{
 #if WITH_METADATA
@@ -221,6 +255,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerDataSubsystem() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Health;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnHealthChanged_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnHealthChanged;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnAmmoChanged_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnAmmoChanged;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -232,7 +274,6 @@ void EmptyLinkFunctionForGeneratedCodePlayerDataSubsystem() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UPlayerDataSubsystem_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UPlayerDataSubsystem_ChangeAmmo, "ChangeAmmo" }, // 4008811281
 		{ &Z_Construct_UFunction_UPlayerDataSubsystem_ChangeHealth, "ChangeHealth" }, // 914532301
-		{ &Z_Construct_UFunction_UPlayerDataSubsystem_GetPlayerDataSubsystem, "GetPlayerDataSubsystem" }, // 1434253597
 		{ &Z_Construct_UFunction_UPlayerDataSubsystem_InitializeData, "InitializeData" }, // 2339858136
 	};
 #if WITH_METADATA
@@ -256,9 +297,23 @@ void EmptyLinkFunctionForGeneratedCodePlayerDataSubsystem() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerDataSubsystem, Health), METADATA_PARAMS(Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_Health_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_Health_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_OnHealthChanged_MetaData[] = {
+		{ "ModuleRelativePath", "Public/PlayerDataSubsystem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_OnHealthChanged = { "OnHealthChanged", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerDataSubsystem, OnHealthChanged), Z_Construct_UDelegateFunction_YourFirstHourwithUMG_HealthChangeEvent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_OnHealthChanged_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_OnHealthChanged_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_OnAmmoChanged_MetaData[] = {
+		{ "ModuleRelativePath", "Public/PlayerDataSubsystem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_OnAmmoChanged = { "OnAmmoChanged", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerDataSubsystem, OnAmmoChanged), Z_Construct_UDelegateFunction_YourFirstHourwithUMG_AmmoChangeEvent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_OnAmmoChanged_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_OnAmmoChanged_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayerDataSubsystem_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_Ammo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_Health,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_OnHealthChanged,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerDataSubsystem_Statics::NewProp_OnAmmoChanged,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UPlayerDataSubsystem_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UPlayerDataSubsystem>::IsAbstract,
@@ -275,7 +330,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerDataSubsystem() {}
 		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerDataSubsystem_Statics::PropPointers),
 		0,
-		0x001000A0u,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UPlayerDataSubsystem_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerDataSubsystem_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UPlayerDataSubsystem()
@@ -287,7 +342,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerDataSubsystem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerDataSubsystem, 1206103050);
+	IMPLEMENT_CLASS(UPlayerDataSubsystem, 4000143676);
 	template<> YOURFIRSTHOURWITHUMG_API UClass* StaticClass<UPlayerDataSubsystem>()
 	{
 		return UPlayerDataSubsystem::StaticClass();

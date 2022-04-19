@@ -8,6 +8,7 @@ public class YourFirstHourwithUMG : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
+		PublicDependencyModuleNames.Add("DeveloperSettings");
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });

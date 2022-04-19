@@ -7,10 +7,14 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\YourFirstHourwithUMGEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\MyClass.cpp.obj"
 "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\PlayerDataSubsystem.cpp.obj"
+"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\PlayerPhysicsSettings.cpp.obj"
+"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\PlayerPhysicsSubsystem.cpp.obj"
+"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\SubsystemUtilities.cpp.obj"
 "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\YourFirstHourwithUMG.cpp.obj"
 "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\PlayerDataSubsystem.gen.cpp.obj"
+"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\PlayerPhysicsSettings.gen.cpp.obj"
+"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\PlayerPhysicsSubsystem.gen.cpp.obj"
 "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\YourFirstHourwithUMG.init.gen.cpp.obj"
 "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\Default.rc2.res"
 /OUT:"C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\UE4Editor-YourFirstHourwithUMG-0004.lib"

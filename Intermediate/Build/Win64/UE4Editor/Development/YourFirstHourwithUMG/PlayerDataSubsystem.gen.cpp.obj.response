@@ -36,7 +36,9 @@
 /I "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Inc\YourFirstHourwithUMG"
 /I "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source"
 /I "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source\YourFirstHourwithUMG\Public"
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\DeveloperSettings
 /I Runtime
+/I Runtime\DeveloperSettings\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
@@ -98,8 +100,6 @@
 /I Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore
 /I Runtime\PhysicsCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\DeveloperSettings
-/I Runtime\DeveloperSettings\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Chaos
 /I Runtime\Experimental
 /I Runtime\Experimental\Chaos\Public

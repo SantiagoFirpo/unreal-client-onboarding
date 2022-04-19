@@ -33,6 +33,7 @@
 /wd4838
 /I .
 /I "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source\YourFirstHourwithUMG\Private"
+/I "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Inc\YourFirstHourwithUMG"
 /I "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source"
 /I "C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Source\YourFirstHourwithUMG\Public"
 /I Runtime
