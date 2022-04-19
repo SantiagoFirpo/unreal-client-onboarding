@@ -4,7 +4,7 @@
 #include "InventorySubsystem.generated.h"
 
 
-UENUM()
+UENUM(BlueprintType)
 enum class EWeapon : uint8
 {
     Pistol,
@@ -18,10 +18,7 @@ class YOURFIRSTHOURWITHUMG_API UInventorySubsystem final : public UGameInstanceS
 {
     GENERATED_BODY()
     
-    UPROPERTY()
     EWeapon CurrentWeapon;
-    
-    UPROPERTY()
     TArray<EWeapon> WeaponInventory;
 
    
