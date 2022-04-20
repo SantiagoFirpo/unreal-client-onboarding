@@ -30,6 +30,7 @@ UInventorySubsystem* UInventorySubsystem::GetInventorySubsystem(const UObject* W
 
 void UInventorySubsystem::SwitchWeapon(const EWeapon NewWeapon)
 {
+    if (NewWeapon == _currentWeapon) return;
     UPlayerDataSubsystem* playerDataSubsystem = GetGameInstance()->GetSubsystem<UPlayerDataSubsystem>();
     switch (NewWeapon)
     {
