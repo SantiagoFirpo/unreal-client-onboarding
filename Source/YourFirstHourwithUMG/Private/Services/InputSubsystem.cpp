@@ -8,14 +8,12 @@
 void UInputSubsystem::SwitchToInventorySlot1()
 {
     _inventorySubsystem->SetInventorySlot(1);
-    UE_LOG(LogTemp, Display, TEXT("Pressed Slot 1"));
 }
 
 // ReSharper disable once CppMemberFunctionMayBeConst
 void UInputSubsystem::SwitchToInventorySlot2()
 {
     _inventorySubsystem->SetInventorySlot(2);
-    UE_LOG(LogTemp, Display, TEXT("Pressed Slot 2"));
 }
 
 void UInputSubsystem::Initialize(FSubsystemCollectionBase& Collection)
@@ -30,7 +28,6 @@ void UInputSubsystem::SetupInputBindings()
     _inputComponent = UGameplayStatics::GetPlayerController(this, 0)->InputComponent;
     _inputComponent->BindAction("InventorySlot1", IE_Pressed, this, &UInputSubsystem::SwitchToInventorySlot1);
     _inputComponent->BindAction("InventorySlot2", IE_Pressed, this, &UInputSubsystem::SwitchToInventorySlot2);
-    UE_LOG(LogTemp, Display, TEXT("Input was set"));
 }
 
 UInputSubsystem* UInputSubsystem::GetInputSubsystem(const UObject* WorldContextObject)
