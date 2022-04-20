@@ -1,13 +1,15 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "PlayerDataSubsystem.h"
-#include "SubsystemUtilities.h"
+#include "Services/PlayerDataSubsystem.h"
+
+#include "Utilities/SubsystemUtilities.h"
 
 void UPlayerDataSubsystem::InitializeData()
 {
     Ammo = 20;
     Health = 100.0f;
+    ProjectileAmount = 1;
 }
 
 UPlayerDataSubsystem* UPlayerDataSubsystem::GetPlayerDataSubsystem(const UObject* WorldContextObject)
