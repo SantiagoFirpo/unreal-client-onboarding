@@ -1,2 +1,0 @@
-C:\Users\santiago.firpo\Documents\Unreal Projects\YourFirstHourwithUMG\Intermediate\Build\Win64\UE4Editor\Development\YourFirstHourwithUMG\Definitions.YourFirstHourwithUMG.h
-c:\users\santiago.firpo\documents\unreal projects\yourfirsthourwithumg\source\yourfirsthourwithumg\YourFirstHourwithUMG.h
