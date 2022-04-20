@@ -1,27 +1,30 @@
-#include "PlayerPhysicsSubsystem.h"
+#include "Services/PlayerPhysicsSubsystem.h"
 
-#include "SubsystemUtilities.h"
+#include "Utilities/SubsystemUtilities.h"
 
 
 void UPlayerPhysicsSubsystem::Initialize(FSubsystemCollectionBase& Collection)
 {
     Super::Initialize(Collection);
-    PhysicsSettings = GetDefault<UPlayerPhysicsSettings>();
+    _physicsSettings = GetDefault<UPlayerPhysicsSettings>();
 }
 
 UPlayerPhysicsSubsystem* UPlayerPhysicsSubsystem::GetPlayerPhysicsSubsystem(const UObject* WorldContextObject)
 {
     return GetGameInstanceFromObject(WorldContextObject)->GetSubsystem<UPlayerPhysicsSubsystem>();
 }
+
 float UPlayerPhysicsSubsystem::GetMoveSpeed() const
 {
-    return PhysicsSettings->GetMoveSpeed();
+    return _physicsSettings->GetMoveSpeed();
 }
+
 float UPlayerPhysicsSubsystem::GetJumpVelocity() const
 {
-    return PhysicsSettings->GetJumpForce();
+    return _physicsSettings->GetJumpForce();
 }
+
 float UPlayerPhysicsSubsystem::GetProjectileSpeed() const
 {
-    return PhysicsSettings->GetProjectileSpeed();
+    return _physicsSettings->GetProjectileSpeed();
 }

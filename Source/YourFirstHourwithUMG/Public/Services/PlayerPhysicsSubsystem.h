@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "PlayerPhysicsSettings.h"
+#include "Config/Settings/PlayerPhysicsSettings.h"
 #include "PlayerPhysicsSubsystem.generated.h"
 
 /**
@@ -13,10 +13,12 @@ UCLASS()
 class YOURFIRSTHOURWITHUMG_API UPlayerPhysicsSubsystem final : public UGameInstanceSubsystem
 {
     GENERATED_BODY()
+    
+    UPROPERTY()
+    const UPlayerPhysicsSettings* _physicsSettings = nullptr;
 
 public:
-  virtual void Initialize(FSubsystemCollectionBase& Collection) override;
-
+    virtual void Initialize(FSubsystemCollectionBase& Collection) override;
     static UPlayerPhysicsSubsystem* GetPlayerPhysicsSubsystem(const UObject* WorldContextObject);
 
     UFUNCTION(BlueprintPure)
@@ -27,8 +29,4 @@ public:
 
     UFUNCTION(BlueprintPure)
     float GetProjectileSpeed() const;
-
-private:
-    UPROPERTY()
-    const UPlayerPhysicsSettings* PhysicsSettings = nullptr;
 };
