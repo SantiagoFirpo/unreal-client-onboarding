@@ -34,19 +34,19 @@ void UInventorySubsystem::SwitchWeapon(const EWeapon NewWeapon)
     UPlayerDataSubsystem* playerDataSubsystem = GetGameInstance()->GetSubsystem<UPlayerDataSubsystem>();
     switch (NewWeapon)
     {
-    case EWeapon::Pistol:
-    {
-        UE_LOG(LogTemp, Display, TEXT("Accessing Pistol "))
-        playerDataSubsystem->ProjectileAmount = 1;
-        break;
-    }
-    case EWeapon::Rifle:
-    {
-        UE_LOG(LogTemp, Display, TEXT("Accessing Rifle"))
-        playerDataSubsystem->ProjectileAmount = 12;
-        break;
-    }
-    default: break;
+        case EWeapon::Pistol:
+        {
+            UE_LOG(LogTemp, Display, TEXT("Accessing Pistol "))
+            playerDataSubsystem->ProjectileAmount = 1;
+            break;
+        }
+        case EWeapon::Rifle:
+        {
+            UE_LOG(LogTemp, Display, TEXT("Accessing Rifle"))
+            playerDataSubsystem->ProjectileAmount = 12;
+            break;
+        }
+        default: break;
     }
     _currentWeapon = NewWeapon;
     if (OnWeaponChanged.IsBound())
