@@ -20,6 +20,8 @@ public:
     void SwitchToInventorySlot1();
     void SwitchToInventorySlot2();
     virtual void Initialize(FSubsystemCollectionBase& Collection) override;
+
+    UFUNCTION(BlueprintCallable)
     void SetupInputBindings();
 
     static UInputSubsystem* GetInputSubsystem(const UObject* WorldContextObject);
